@@ -39,7 +39,7 @@ Here is the overview to record a video and upload it to S3.
 
 ### Recording
 Expo provides Camera component that has [recordAsync API](https://docs.expo.io/versions/latest/sdk/camera.html#recordasync).  
-When you stop recoding, it returns `uri` which is a URI to the local video file.
+It returns uri which is a URI to the local video file, when you stop recoding.
 
 ### Uploading
 S3 allows you to upload using POST with [AWS Signature Version 4](https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-post-example.html).  
