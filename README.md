@@ -4,7 +4,7 @@ Try it at https://expo.io/@horiuchie/VideoUploader.
 
 ## Motivation
 
-I want to record and upload a video like Instagram.  
+I want to record a video and upload it like Instagram.  
 This example shows how you can record a video and upload it to S3.  
 This also include how to use API Expo and AWS SDK provide.
 
