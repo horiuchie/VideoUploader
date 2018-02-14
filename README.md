@@ -33,7 +33,7 @@ See https://github.com/expo/expo/issues/1057/.
 
 ## How this example works
 
-I will explain how to record and upload here.
+Here is the overview to record a video and upload it to S3.
 
 ![structure](https://github.com/horiuchie/VideoUploader/blob/master/RecodingAndUploading.png)
 
