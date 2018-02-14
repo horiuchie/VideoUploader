@@ -1,6 +1,6 @@
 # Video Upload Example
 
-Try it(in preparation).
+Try it at https://expo.io/@horiuchie/VideoUploader.
 
 ## Motivation
 
