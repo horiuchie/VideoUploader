@@ -13,10 +13,9 @@ This also include how to use API Expo and AWS SDK provide.
 
 ### Setting up the S3
 
-- Follow the steps.
-  - Create bucket.
-  - Create IAM user who can read/write to the bucket.
-  - In `/constants/aws.js`, fill in credentials of the IAM and upload destination.
+- Create bucket.
+- Create IAM user who can read/write to the bucket.
+- In `/constants/aws.js`, fill in credentials of the IAM and upload destination.
 
 ### Running the app
 
