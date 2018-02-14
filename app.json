@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "VideoUploader",
+    "description": "This is example to show how to record and upload a video to S3, see the source: https://github.com/horiuchie/VideoUploader.",
+    "slug": "VideoUploader",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
