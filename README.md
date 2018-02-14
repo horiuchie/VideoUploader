@@ -36,7 +36,7 @@ See https://github.com/expo/expo/issues/1057/.
 
 I will introduce how to record and upload.
 
-![structure](https://github.com/horiuchie/VideoUploader/blob/master/RecodingandUploading.png)
+![structure](https://github.com/horiuchie/VideoUploader/blob/master/RecodingAndUploading.png)
 
 ### Recording
 Expo provides Camera component that has [recordAsync API](https://docs.expo.io/versions/latest/sdk/camera.html#recordasync).  

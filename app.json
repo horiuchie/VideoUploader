@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "VideoUploader",
-    "description": "This is example to show how to record and upload a video to S3, see the source: https://github.com/horiuchie/VideoUploader.",
+    "description": "This is example to show how to record and upload a video to S3, see the source: https://github.com/horiuchie/VideoUploader",
     "slug": "VideoUploader",
     "privacy": "public",
     "sdkVersion": "25.0.0",
