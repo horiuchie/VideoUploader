@@ -4,10 +4,9 @@ Try it at https://expo.io/@horiuchie/VideoUploader.
 
 ## Motivation
 
-I want to code an app like Instagram that can record and upload.  
+I want to code an app that can record a video and upload it to S3.  
 As a result of trial and error, I figured the way.  
-This example shows how you can record a video and upload it to S3.  
-This also include how to use API Expo and AWS SDK provide.
+This example shows how to do it. And also include how to use API Expo and AWS SDK provide.
 
 
 ## How to use
