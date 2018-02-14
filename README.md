@@ -51,7 +51,11 @@ It returns the following `fields` to include in the form.
 Finally, put `uri` and `fields` into [FormData](https://developer.mozilla.org/ja/docs/Web/API/FormData), and post it to `https://s3-{$YOUR_REGION}.amazonaws.com/${YOUR_BUCKET_NAME}`. 
 
 ``` JS
+// Get a pre-signed POST policy.
+const fields = s3.createPresignedPost(params).fields;
+
 /*
+  Merge to FormData like this.
   FormData {
     key,
     acl,
@@ -63,6 +67,7 @@ const formData = new FormData();
 R.forEachObjIndexed((value, key) => formData.append(key, value), fields);
 formData.append('file', { uri });
 
+// request
 const options = {
   method: 'POST',
   body: formData,
