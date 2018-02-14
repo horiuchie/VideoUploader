@@ -66,7 +66,7 @@ const formData = new FormData();
 R.forEachObjIndexed((value, key) => formData.append(key, value), fields);
 formData.append('file', { uri });
 
-// request
+// POST
 const options = {
   method: 'POST',
   body: formData,
